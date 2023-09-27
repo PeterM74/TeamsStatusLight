@@ -46,6 +46,6 @@ while (True):
     
     fSetBlinkColour(TeamsStatusColours[CurrentStatus], Mode='Half')
 
-
+  # Adjust for faster or slower updates
   time.sleep(5)
 

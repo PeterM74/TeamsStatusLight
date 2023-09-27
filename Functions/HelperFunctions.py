@@ -37,7 +37,7 @@ TeamsStatusColours = {
   "Busy": [255, 0, 0]
 }
 
-# Log line list
+# Log parsing regex list
 AvailableStatusPattern = ['StatusIndicatorStateService: Added Available',
     'Setting the taskbar overlay icon - Available',
     'StatusIndicatorStateService: Added NewActivity (current state: Available -> NewActivity']
