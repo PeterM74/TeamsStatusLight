@@ -4,7 +4,7 @@
 
 ---
 
-**<p>The latest Teams update has removed the logging system that this script is reliant upon. An API exists but only reveals if the user is in a meeting or not. I have a few ideas for how to restore functionality but until then, this project will only work with older installations of Teams.</p>**
+**<p>The latest Teams update has removed the logging system that this script is reliant upon. The Microsoft Graph API could solve this with the `me/presence` endpoint but requires the [Presence.Read permission](https://learn.microsoft.com/en-us/graph/api/presence-get?view=graph-rest-1.0&tabs=http) which is disabled by default and requires admin approval, which proves difficult in my current organisation. I have a few ideas for how to restore functionality but until then, this project will only work with older installations of Teams.</p>**
 
 ---
 
