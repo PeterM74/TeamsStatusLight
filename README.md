@@ -1,6 +1,6 @@
 # Teams Status Light
 ***An LED peripheral that reflects the computer's current Microsoft Teams status***  
-![](https://img.shields.io/badge/version-1.0.0-green)
+![](https://img.shields.io/badge/version-1.1.0-green)
 
 Following the shift to a hybrid working environment post-COVID, it can be difficult for colleagues to determine whether I am on a Teams call or available for a discussion (usually because I have headphones in for music). This script determines the computer's current Microsoft Teams status and sends the relevant colour to the [BlinkStick Square](https://www.blinkstick.com/products/blinkstick-square) LED positioned on the desk, discretely indicating to nearby colleagues my availability if they need me.
 
