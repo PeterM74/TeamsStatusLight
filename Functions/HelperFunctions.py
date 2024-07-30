@@ -33,8 +33,13 @@ def fSetBlinkColour(RGBArray, Mode='All'):
 # BlinkStick default colours
 TeamsStatusColours = {
   "Available": [0, 255, 0],
-  "Away": [194, 194, 4],
-  "Busy": [255, 0, 0]
+  "Busy": [255, 0, 0],
+  "Presenting": [255, 0, 0],
+  "Donotdisturb": [255, 0, 0],
+  "Inameeting": [255, 0, 0],
+  "Inacall": [255, 0, 0],
+  "Berightback": [194, 194, 4],
+  "Away": [194, 194, 4]
 }
 
 # Log parsing regex list
