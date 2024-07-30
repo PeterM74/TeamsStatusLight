@@ -2,7 +2,7 @@ import os
 import tailer
 import time
 import random
-import uiautomation
+import uiautomation as auto
 from blinkstick import blinkstick
 from Functions.HelperFunctions import *
 
@@ -29,7 +29,8 @@ while (True):
       
       Status = Button.Name
       StatusWords = Status.split()
-      CurrentStatus = StatusWords[StatusWords.index('status') + 1]
+      CurrentStatus = StatusWords[(StatusWords.index('status') + 1):StatusWords.index('for')]
+      CurrentStatus = ''.join(CurrentStatus)
     except Exception as error:
       print("An exception occurred:", error)
   
@@ -68,5 +69,5 @@ while (True):
     fSetBlinkColour(TeamsStatusColours[CurrentStatus], Mode='Half')
 
   # Adjust for faster or slower updates
-  time.sleep(5)
+  time.sleep(4)
 
